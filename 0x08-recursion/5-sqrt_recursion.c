@@ -6,11 +6,6 @@
  *
  * Return: the resulting square root
  */
-int _sqrt_recursion(int n)
-{
-    return helper(0, n, n);
-}
-
 int helper(int start, int end, int n)
 {
     if (start <= end)
@@ -27,4 +22,9 @@ int helper(int start, int end, int n)
     {
         return -1;
     }
+}
+
+int _sqrt_recursion(int n)
+{
+    return helper(0, n, n);
 }
