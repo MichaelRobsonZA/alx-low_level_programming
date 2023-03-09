@@ -6,25 +6,21 @@
  *
  * Return: the resulting square root
  */
-int helper(int start, int end, int n)
+
+int helper(int n, int i)
 {
-    if (start <= end)
-    {
-        int mid = (start + end) / 2;
-        if (mid * mid == n)
-            return mid;
-        else if (mid * mid < n)
-            return helper(mid + 1, end, n);
-        else
-            return helper(start, mid - 1, n);
-    }
-    else
-    {
+    if (i * i == n)
+        return i;
+    else if (i * i > n)
         return -1;
-    }
+    else
+        return helper(n, i + 1);
 }
 
 int _sqrt_recursion(int n)
 {
-    return helper(0, n, n);
+    if (n < 0)
+        return -1;
+    else
+        return helper(n, 0);
 }
