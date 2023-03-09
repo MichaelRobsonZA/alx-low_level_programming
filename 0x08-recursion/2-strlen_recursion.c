@@ -1,21 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- * @x: base number
- * @y: exponent
+ * _strlen_recursion
+ * int len: base number
+ * @s: string mwasured
  *
- * Return: value of x raised to the power of y, or -1 if y is negative
+ * Return: length of string
  */
 
-int _pow_recursion(int x, int y)
+int _strlen_recursion(char *s)
 {
-	if (y < 0)
-		return (-1);
-	else if (y == 0)
-		return (1);
-	else
-		return (x * _pow_recursion(x, y - 1));
+	int len = 0;
+
+	if (*s)
+	{
+		len++;
+		len += _strlen_recursion(s + 1);
+	}
+
+	return (len);
 }
-
-
