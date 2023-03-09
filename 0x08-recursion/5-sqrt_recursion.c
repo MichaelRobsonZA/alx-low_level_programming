@@ -1,12 +1,10 @@
 /**
- * actual_sqrt_recursion - recurses to find the natural
- * square root of a number
- * @n: number to calculate the sqaure root of
+ * helper - helps find the natural square root of a number
+ * @n: number to find the square root of
  * @i: iterator
  *
- * Return: the resulting square root
+ * Return: the natural square root of the number, -1 otherwise
  */
-
 int helper(int n, int i)
 {
     if (i * i == n)
