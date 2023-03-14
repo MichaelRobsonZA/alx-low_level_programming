@@ -1,12 +1,12 @@
-#include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- * create_array - creates an array of chars and initializes it with a specific char
- * @size: size of the array to create
- * @c: char to initialize the array with
+ * create_array - creates an array of chars and initializes it with
+ * a specific char
+ * @size: size of array
+ * @c: specific char to initialize with
  *
- * Return: pointer to the array (Success), NULL (Error)
+ * Return: pointer to the array, or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
 {
