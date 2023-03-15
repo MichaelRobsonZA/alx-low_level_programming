@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>0x00. C - Hello, World</title>
 </head>
 <body>
 	<h1>0x00. C - Hello, World</h1>
