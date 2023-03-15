@@ -1,24 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming</title>
-</head>
-<body>
-  <h1>Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming</h1>
-  <p>This repository contains programs written for the low-level programming and algorithm track at the alx-SoftwareEngineering program facilitated by Holberton School. I am learning about data structures, algorithms, and other low-level programming concepts while working in the C language. I update this repo with my learning progresses with hands-on projects as listed below:</p>
-  <ul>
-    <li><a href="./0x00-hello_world">0x00. C - Hello, World</a></li>
-    <li><a href="./0x01-variables_if_else_while">0x01. C - Variables, if, else, while</a></li>
-    <li><a href="./0x02-functions_nested_loops">0x02. C - Functions, nested loops</a></li>
-    <li><a href="./0x03-debugging">0x03. C - debugging</a></li>
-    <li><a href="./0x04-more_functions_nested_loops">0x04. C - More functions, more nested loops</a></li>
-    <li><a href="./0x05-pointers_arrays_strings">0x05. C - Pointers, arrays and strings</a></li>
-    <li><a href="./0x06-pointers_arrays_strings">0x06. C - More pointers, arrays and strings</a></li>
-    <li><a href="./0x07-pointers_arrays_strings">0x07. C - Even more pointers, arrays and strings</a></li>
-    <li><a href="./0x08-recursion">0x08. C - Recursion</a></li>
-    <li><a href="./0x09-static_libraries">0x09. C - Static libraries</a></li>
-    <li><a href="./0x0A-argc_argv">0x0A. C - argc, argv</a></li>
-    <li><a href="./0x0B-malloc_free">0x0B. C - malloc, free</a></li>
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>0x08-Recursion</title>
+  </head>
+  <body>
+    <h1>0x08-Recursion</h1>
+    <p>The aim of this is to learn about Recursion and how to implement it in <strong>C language</strong>.</p>
+
+<h2>Files</h2>
+<p>All of the following files are programs written in C:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Filename</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>0-puts_recursion.c</code></td>
+      <td>Prints a string</td>
+    </tr>
+    <tr>
+      <td><code>1-print_rev_recursion.c</code></td>
+      <td>Prints a string in reverse</td>
+    </tr>
+    <tr>
+      <td><code>2-strlen_recursion.c</code></td>
+      <td>Returns the length of a string</td>
+    </tr>
+    <tr>
+      <td><code>3-factorial.c</code></td>
+      <td>Returns the factorial of a given number</td>
+    </tr>
+    <tr>
+      <td><code>4-pow_recursion.c</code></td>
+      <td>Returns the value of <code>x</code> raised to the power of <code>y</code></td>
+    </tr>
+    <tr>
+      <td><code>5-sqrt_recursion.c</code></td>
+      <td>Returns the natural sqaure root of a number</td>
+    </tr>
+    <tr>
+      <td><code>6-is_prime_number.c</code></td>
+      <td>Returns <code>1</code> if the input integer is a prime number, otherwise return <code>0</code></td>
+    </tr>
+    <tr>
+      <td><code>100-is_palindrome.c</code></td>
+      <td>Returns <code>1</code> if a string is a palindrome and <code>0</code> if not</td>
+    </tr>
+    <tr>
+      <td><code>101-wildcmp.c</code></td>
+      <td>Compares two strings and returns <code>1</code> if the strings can be considered identical. Otherwise, returns <code>0</code></td>
+    </tr>
+  </tbody>
+</table>
+  </body>
 </html>
