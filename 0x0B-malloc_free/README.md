@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>0x0B-Malloc, free</title>
   </head>
   <body>
     <h1>0x0B-Malloc, free</h1>

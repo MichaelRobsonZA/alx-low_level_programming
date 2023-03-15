@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>0x02. C - Functions, nested loops</title>
   </head>
   <body>
     <h1>0x02. C - Functions, nested loops</h1>

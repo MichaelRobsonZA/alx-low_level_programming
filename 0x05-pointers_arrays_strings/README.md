@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>0x05-Pointers, arrays and strings</title>
 </head>
 <body>
 	<h1>0x05-Pointers, arrays and strings</h1>

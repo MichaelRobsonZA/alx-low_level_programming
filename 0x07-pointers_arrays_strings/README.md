@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>0x07-Even more pointers, arrays and strings</title>
   </head>
   <body>
     <h1>0x07-Even more pointers, arrays and strings</h1>

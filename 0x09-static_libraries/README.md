@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>0x09-Static libraries</title>
   </head>
   <body>
     <h1>0x09-Static libraries</h1>
