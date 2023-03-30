@@ -9,15 +9,15 @@
  */
 size_t print_list(const list_t *h)
 {
-    size_t node_count = 0;
+	size_t node_count = 0;
 
-    while (h)
-    {
-        printf("[%d] %s\n", h->len, h->str ? h->str : "(nil)");
-        h = h->next;
-        node_count++;
-    }
+	while (h)
+	{
+		printf("[%d] %s\n", h->len, h->str ? h->str : "(nil)");
+		h = h->next;
+		node_count++;
+	}
 
-    return (node_count);
+	return (node_count);
 }
 
