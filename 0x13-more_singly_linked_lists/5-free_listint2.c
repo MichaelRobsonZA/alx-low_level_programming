@@ -10,22 +10,23 @@
  */
 void free_listint2(listint_t **head)
 {
-    listint_t *current;
+	listint_t *current;
 
-    /* check if head pointer is NULL */
-    if (head == NULL)
-        return;
+	/* check if head pointer is NULL */
+	if (head == NULL)
+		return;
 
-    /* iterate through list, freeing each node */
-    while (*head != NULL)
-    {
-        /* save current node pointer */
-        current = *head;
+	/* iterate through list, freeing each node */
+	while (*head != NULL)
+	{
+		/* save current node pointer */
+		current = *head;
 
-        /* move head pointer to next node */
-        *head = (*head)->next;
+		/* move head pointer to next node */
+		*head = (*head)->next;
 
-        /* free current node */
-        free(current);
-    }
+		/* free current node */
+		free(current);
+	}
+
 }

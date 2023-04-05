@@ -9,22 +9,22 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-    listint_t *new_node;
+	listint_t *new_node;
 
-    /* allocate memory for the new node */
-    new_node = malloc(sizeof(listint_t));
-    if (new_node == NULL)
-        return (NULL);
+	/* allocate memory for the new node */
+	new_node = malloc(sizeof(listint_t));
+	if (new_node == NULL)
+		return (NULL);
 
     /* assign the value of the integer n to the n field of the new node */
-    new_node->n = n;
+	new_node->n = n;
 
     /* set the next field of the new node to the current head of the list */
-    new_node->next = *head;
+	new_node->next = *head;
 
     /* set the head of the list to the new node */
-    *head = new_node;
+	*head = new_node;
 
     /* return the address of the new node */
-    return (new_node);
+	return (new_node);
 }
