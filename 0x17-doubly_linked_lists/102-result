@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int is_palindrome(int n)
+{
+    int reversed = 0, original = n;
+
+    while (n > 0)
+    {
+        reversed = reversed * 10 + n % 10;
+        n /= 10;
+    }
+
+    return (reversed == original);
+}
+
+int main(void)
+{
+    int i, j, product, largest_palindrome = 0;
+
+    /* Try all products of two 3-digit numbers */
+    for (i = 999; i >= 100; i--)
+    {
+        for (j = i; j >= 100; j--)
+        {
+            product = i * j;
+            if (is_palindrome(product) && product > largest_palindrome)
+                largest_palindrome = product;
+        }
+    }
+
+    printf("%d\n", largest_palindrome);
+
+    FILE *fp = fopen("102-result", "w");
+    if (fp != NULL)
+    {
+        fprintf(fp, "%d", largest_palindrome);
+        fclose(fp);
+        return 0;
+    }
+    else
+    {
+        printf("Failed to save result.\n");
+        return 1;
+    }
+}
+
